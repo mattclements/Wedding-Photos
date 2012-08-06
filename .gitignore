@@ -13,3 +13,26 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#GitHub Ignore (https://raw.github.com/github/gitignore/master/Rails.gitignore)
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/vendor/bundle
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+#OSX Files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
